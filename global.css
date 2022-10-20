@@ -3,7 +3,8 @@ body {
 }
 
 .topnav {
-    background-color: gold;
+    background-image: linear-gradient(to right top, #e0d506, #e8df41, #f0e863, #f7f281, #fffb9d);
+    /* background-color: gold; */
     overflow: hidden;
     width: 100%;
 

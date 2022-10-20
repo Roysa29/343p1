@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Page</title>
+    <link href="global.css" rel="stylesheet">
+
+    <style>
+        .filter {
+            font-family: Impact;
+            font-size: 20px;
+            padding: 0px;
+            margin: 0vh 5vw;
+            background-color: rgb(193, 167, 214);
+            width: 150px;
+            height: 875px;
+            position: absolute;
+            left: -97px;
+            border-style: solid;
+        }
+
+        .items {
+            overflow: scroll;
+            width: 1760px;
+            height: 875px;
+            position: absolute;
+            left: 150px;
+        }
+
+        .merch {
+            font-family: Impact;
+            text-align: center;
+            font-size: 70px;
+            font-weight: 900;
+        }
+
+        .row {
+            margin: 20px 20px 20px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        .column {
+            margin: 20px 20px 20px 20px;
+            flex: 15%;
+            max-width: 20%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin: 20px 20px 20px 20px;
+            vertical-align: middle;
+            width: 100%;
+            box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+            border-style: solid;
+        }
+
+        .column :hover {
+            width: 110%;
+            margin: 10px 8px 8px 10px;
+        }
+
+        @media screen and (max-width: 800px) {
+            .column {
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html"><u>Products</u></a>
+        <a href="news.html">News</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <div class="filter">
+        <br><br><br>
+        <p style="text-align:center; font-size: 30px;"><u>Items</u></p>
+        <form>
+            <input type="checkbox" id="select1" name="select1" value="T-Shirts">
+            <label for="select1"> T-Shirts</label><br>
+            <input type="checkbox" id="select2" name="select2" value="Sweatshirts">
+            <label for="select2"> Sweatshirts</label><br>
+            <input type="checkbox" id="select3" name="select3" value="Hats">
+            <label for="select3"> Hats</label><br>
+            <input type="checkbox" id="select4" name="select4" value="Pins">
+            <label for="select3"> Pins</label><br>
+            <input type="checkbox" id="select5" name="select5" value="Stickers">
+            <label for="select4"> Stickers</label><br>
+        </form>
+
+        <br>
+
+        <p style="text-align:center; font-size: 30px;"><u>Price</u></p>
+
+        <form>
+            <input type="checkbox" id="price1" name="price1" value="0_10">
+            <label for="price1"> $0 - $10</label><br>
+            <input type="checkbox" id="price2" name="price2" value="10_25">
+            <label for="price2"> $10 - $25</label><br>
+            <input type="checkbox" id="price3" name="price3" value="25_50">
+            <label for="price3"> $25 - $50</label><br>
+            <input type="checkbox" id="price4" name="price4" value="50">
+            <label for="price4"> $50+</label><br>
+        </form>
+
+        <br>
+
+        <form>
+            <input type="checkbox" id="out_of_stock" name="out_of_stock" value="stock">
+            <label for="out_of_stock"> <u style="color:red">Show Out of Stock Items</u></label><br>
+        </form>
+
+    </div>
+
+    <div class="items">
+        <div class="merch">
+            <p>Shop Our Merch Store</p>
+            <div class="row">
+                <div class="column">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Pent.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Trap.png" alt="A placeholder image for items">
+                    <img src="images/Pent.png" alt="A placeholder image for items">
+                </div>
+                <div class="column">
+                    <img src="images/Pent.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Trap.png" alt="A placeholder image for items">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Pent.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                </div>
+                <div class="column">
+                    <img src="images/Pent.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Trap.png" alt="A placeholder image for items">
+                </div>
+                <div class="column">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Pent.png" alt="A placeholder image for items">
+                    <img src="images/Trap.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                </div>
+                <div class="column">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Trap.png" alt="A placeholder image for items">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Pent.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Trap.png" alt="A placeholder image for items">
+                </div>
+                <!-- <div class="column">
+                    <img src="images/Trap.png" alt="A placeholder image for items">
+                    <img src="images/Pent.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                </div>
+                <div class="column">
+                    <img src="images/Trap.png" alt="A placeholder image for items">
+                    <img src="images/Pent.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <img src="images/Box.png" alt="A placeholder image for items">
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
