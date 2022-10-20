@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="global.css" rel="stylesheet">
+    <link rel="stylesheet" href="loginlayout.css">
 </head>
 <body>
-	<h1>Account</h1>
-	<div>
+	<div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="news.html">News</a>
+        <a href="login.html"><u>Login</u></a>
+    </div>
+
+    <div class="title">
+    	<h1>Account</h1>
+    </div>
+	<div class="signup">
 		<form action="/action_page.php">
 		  <input type="text" id="name" name="name" value="Name"><br><br>
 		  <input type="text" id="email" name="email" value="Email"><br><br>
@@ -18,7 +29,7 @@
 		</form>
 	</div>
 
-	<div>
+	<div class="login">
 		<form action="/action_page.php">
 		  <input type="text" id="uname" name="uname" value="Username"><br><br>
 		  <input type="text" id="pword" name="pword" value="Password"><br><br>

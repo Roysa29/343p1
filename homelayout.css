@@ -1,20 +1,13 @@
-header {
-	padding: 0px;
-	margin: 6vh 2vwz 0vh 2vw
-}
-header h1 {
-	position:relative; right: 3.5em; top: 4.5em;
-	padding-top: 1em; padding-left: 1em; padding-bottom: 0em;
-	width: 10em;
-	height: 3em;
+.title {
+	position: relative; top: 7em; left: 40em;
 }
 .summary {
-	position: relative; bottom: 26em; left: 45em;
-	padding: 2em;
-	width: 20vw;
-	height: 70vh;
+	position: relative; top: 5em; left: 26.5em;
+	font-size: 1.5em;
+	width: 30%;
+	height: 20%;
 }
 .logo{
-	position: relative; bottom: 10em; left: 10em;
+	position: relative; bottom: 40em; left: 10em;
 	padding: 2em;
 }

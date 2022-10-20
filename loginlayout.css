@@ -1,10 +1,12 @@
-header {
-	padding: 0px;
-	margin: 6vh 2vwz 0vh 2vw
+.title {
+	position: relative; left: 45%;
 }
-header h1 {
-	position:relative; right: 3.5em; top: 4.5em;
-	padding-top: 1em; padding-left: 1em; padding-bottom: 0em;
-	width: 10em;
-	height: 3em;
+
+.signup{
+	position: relative; left: 23%;
+	width: 20em;
+	height: 10em;
+}
+.login{
+	position: relative; left: 63%; bottom: 10em
 }
