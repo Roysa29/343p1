@@ -13,13 +13,18 @@ body {
 .topnav a {
     float: left;
     color: black;
+    font-weight: bold;
     text-align: center;
     padding: 15px;
     text-decoration: none;
     font-size: 17px;
-    padding-left: 8%;
-    padding-right: 8%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+}
+
+.topnav a:hover {
+    background-color: yellow;
 }
 
 .img {
