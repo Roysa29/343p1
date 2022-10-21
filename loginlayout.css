@@ -1,5 +1,5 @@
 .title {
-	position: relative; left: 45%;
+	position: relative; left: 42.5%;
 }
 
 .signup{
@@ -8,5 +8,5 @@
 	height: 10em;
 }
 .login{
-	position: relative; left: 63%; bottom: 10em
+	position: relative; left: 63%; bottom: 10em;
 }

@@ -1,13 +1,11 @@
 .title {
-	position: relative; top: 7em; left: 40em;
+	position: relative; top: 7em; left: 50%;
 }
 .summary {
-	position: relative; top: 5em; left: 26.5em;
+	position: relative; top: 4em; left: 50%;
 	font-size: 1.5em;
 	width: 30%;
 	height: 20%;
 }
 .logo{
-	position: relative; bottom: 40em; left: 10em;
-	padding: 2em;
 }
