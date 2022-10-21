@@ -5,81 +5,12 @@
     <meta charset="UTF-8">
     <title>About Page</title>
     <link href="global.css" rel="stylesheet">
-
-    <style>
-        .filter {
-            font-family: Impact;
-            font-size: 20px;
-            padding: 0px;
-            margin: 0vh 5vw;
-            background-color: rgb(193, 167, 214);
-            width: 150px;
-            height: 875px;
-            position: absolute;
-            left: -97px;
-            border-style: solid;
-        }
-
-        .items {
-            overflow: scroll;
-            width: 1760px;
-            height: 875px;
-            position: absolute;
-            left: 150px;
-        }
-
-        .merch {
-            font-family: Impact;
-            text-align: center;
-            font-size: 70px;
-            font-weight: 900;
-        }
-
-        .row {
-            margin: 20px 20px 20px 20px;
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0 4px;
-        }
-
-        .column {
-            margin: 20px 20px 20px 20px;
-            flex: 15%;
-            max-width: 20%;
-            padding: 0 4px;
-        }
-
-        .column img {
-            margin: 20px 20px 20px 20px;
-            vertical-align: middle;
-            width: 100%;
-            box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
-            border-style: solid;
-        }
-
-        .column :hover {
-            width: 110%;
-            margin: 10px 8px 8px 10px;
-        }
-
-        @media screen and (max-width: 800px) {
-            .column {
-                flex: 50%;
-                max-width: 50%;
-            }
-        }
-
-        @media screen and (max-width: 600px) {
-            .column {
-                flex: 100%;
-                max-width: 100%;
-            }
-        }
-    </style>
-
+    <link href="productslayout.css" rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- Header on the top -->
     <div class="topnav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -88,8 +19,11 @@
         <a href="login.html">Login</a>
     </div>
 
+    <!-- Menu on the side -->
     <div class="filter">
         <br><br><br>
+
+        <!-- Items Checklist -->
         <p style="text-align:center; font-size: 30px;"><u>Items</u></p>
         <form>
             <input type="checkbox" id="select1" name="select1" value="T-Shirts">
@@ -106,8 +40,8 @@
 
         <br>
 
+        <!-- Price Checklist -->
         <p style="text-align:center; font-size: 30px;"><u>Price</u></p>
-
         <form>
             <input type="checkbox" id="price1" name="price1" value="0_10">
             <label for="price1"> $0 - $10</label><br>
@@ -128,73 +62,56 @@
 
     </div>
 
+    <!-- Grid of Products -->
     <div class="items">
         <div class="merch">
             <p>Shop Our Merch Store</p>
             <div class="row">
                 <div class="column">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Pent.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Trap.png" alt="A placeholder image for items">
-                    <img src="images/Pent.png" alt="A placeholder image for items">
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Circle.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Pent.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Trap.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Pent.png" alt="A placeholder image for items"></a>
                 </div>
                 <div class="column">
-                    <img src="images/Pent.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Trap.png" alt="A placeholder image for items">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Pent.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
+                    <a href="stock.html"><img src="images/Pent.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Trap.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Circle.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Pent.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
                 </div>
                 <div class="column">
-                    <img src="images/Pent.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Trap.png" alt="A placeholder image for items">
+                    <a href="stock.html"><img src="images/Pent.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Circle.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Circle.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Trap.png" alt="A placeholder image for items"></a>
                 </div>
                 <div class="column">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Pent.png" alt="A placeholder image for items">
-                    <img src="images/Trap.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
+                    <a href="stock.html"><img src="images/Circle.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Pent.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Trap.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Circle.png" alt="A placeholder image for items"></a>
                 </div>
                 <div class="column">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Trap.png" alt="A placeholder image for items">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Pent.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Trap.png" alt="A placeholder image for items">
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Trap.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Circle.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Pent.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Box.png" alt="A placeholder image for items"></a>
+                    <a href="stock.html"><img src="images/Trap.png" alt="A placeholder image for items"></a>
                 </div>
-                <!-- <div class="column">
-                    <img src="images/Trap.png" alt="A placeholder image for items">
-                    <img src="images/Pent.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                </div>
-                <div class="column">
-                    <img src="images/Trap.png" alt="A placeholder image for items">
-                    <img src="images/Pent.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                    <img src="images/Circle.png" alt="A placeholder image for items">
-                    <img src="images/Box.png" alt="A placeholder image for items">
-                </div> -->
             </div>
         </div>
     </div>
