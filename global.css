@@ -21,3 +21,59 @@ body {
     display: flex;
 }
 
+.img {
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.content_box {
+    background-image: url(images/background.jpg);
+    background-repeat: repeat/no-repeat;
+    background-size: 2000px 1750px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+}
+
+.names td {
+    font-size: 23px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.titles td {
+    font-weight: ital;
+    font-style: italic;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+.desc td {
+    padding-right: 25px;
+}
+
+.sub_title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.mainP {
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    padding-bottom: 0px;
+    position: absolute;
+    width: 1750px;
+    height: 450px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
