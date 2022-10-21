@@ -1,9 +1,9 @@
 .title {
-	position: relative; left: 42.5%;
+	text-align: center;
 }
 
 .signup{
-	position: relative; left: 23%;
+	position: relative; left: 20%;
 	width: 20em;
 	height: 10em;
 }
