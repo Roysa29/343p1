@@ -48,7 +48,7 @@
 .column img {
     margin: 20px 20px 20px 20px;
     vertical-align: middle;
-    width: 100%;
+    width: 90%;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
     border-style: solid;
     border-color: rgb(24, 23, 23);
@@ -56,34 +56,37 @@
 
 /* React to cursor hover */
 .column :hover {
-    width: 110%;
+    width: 100%;
     margin: 10px 8px 8px 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .column {
         flex: 50%;
         max-width: 50%;
     }
-    .items {
-        overflow: scroll;
-        width: 700;
-        height: 875px;
-        position: absolute;
-        left: 150px;
+
+    .filter {
+        font-size: 15px;
     }
+
+    .merch {
+        font-size: 60px;
+    }
+
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .column {
         flex: 100%;
         max-width: 100%;
     }
-    .items {
-        overflow: scroll;
-        width: 500;
-        height: 875px;
-        position: absolute;
-        left: 150px;
+
+    .filter {
+        font-size: 10px;
+    }
+
+    .merch {
+        font-size: 50px;
     }
 }
