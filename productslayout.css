@@ -51,7 +51,7 @@
     width: 100%;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
     border-style: solid;
-    border-color: coral;
+    border-color: rgb(24, 23, 23);
 }
 
 /* React to cursor hover */
@@ -65,11 +65,25 @@
         flex: 50%;
         max-width: 50%;
     }
+    .items {
+        overflow: scroll;
+        width: 700;
+        height: 875px;
+        position: absolute;
+        left: 150px;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .column {
         flex: 100%;
         max-width: 100%;
+    }
+    .items {
+        overflow: scroll;
+        width: 500;
+        height: 875px;
+        position: absolute;
+        left: 150px;
     }
 }
