@@ -35,7 +35,7 @@ body {
 .content_box {
     background-image: url(images/background.jpg);
     background-repeat: repeat/no-repeat;
-    background-size: 25000px 2000px;
+    background-size: 100% 100%;
     margin-left: 75px;
     margin-right: 75px;
     margin-top: 0px;
@@ -66,20 +66,4 @@ body {
     margin-bottom: 0px;
 }
 
-.mainP {
-    margin-left: 75px;
-    margin-right: 75px;
-    margin-bottom: 0px;
-    margin-top: 50px;
-    padding-bottom: 0px;
-    position: absolute;
-    width: 1750px;
-    height: 450px;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
 

@@ -1,0 +1,17 @@
+.mainP {
+    width: 0px;
+    height: 0px;
+}
+
+.header {
+    text-align: center; padding-top: 45px; margin-top: 50px; font-size: 50px;
+}
+
+.delete {
+    width: 0px;
+    height: 0px;
+}
+
+.centered {
+    margin-left: 10%;
+}

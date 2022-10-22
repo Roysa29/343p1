@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <title>About Page</title>
 <link href="global.css" rel="stylesheet">
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" media="screen and (min-width: 1901px)" href="aboutlarge.css">
+<link rel="stylesheet" media="screen and (max-width: 1900px)" href="aboutsmall.css">
+
 </head>
 <body style = "background-color: rgba(69, 0, 132, .25);">
 
@@ -18,7 +22,7 @@
     <img class = "mainP" src="images/placeholder.png" alt="placeholder">
     <div class="content_box">
 
-    <h1 style="text-align: center; padding-top: 45px; margin-top: 500px; font-size: 50px;">What is the D&D Club?</h1>
+    <h1 class="header">What is the D&D Club?</h1>
     <div class = "container" style= "margin-left: 10%; padding-right: 20%; margin-top: 0px; padding-top: 45px; ">
         <div style="margin-right: 20px;">
     <p class = "sub_title">Purpose</p>
@@ -30,17 +34,17 @@
         </p>
     </div>
     <div style="flex-basis: 40%; margin-left: 350px;">
-        <img src="images/300.png" alt="placeholder">  
+        <img class= "delete" src="images/300.png" alt="placeholder">  
     </div>
 
     </div>
     <div class = "container" style= "margin-right: 10%; margin-top: 200px;">
     <div style="margin-left: 12%; padding-right: 250px" >
 
-            <img style="flex-basis: 40%; margin-right: 250px;" src="images/300.png" alt="placeholder">
+            <img style="flex-basis: 40%; margin-right: 250px;"  class= "delete" src="images/300.png" alt="placeholder">
         </div>
-        <div>
-        <p class = "sub_title">History</p>
+        <div class="centered">
+        <p class = "sub_title ">History</p>
         <p style="margin-top: 0px; margin-right: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -49,7 +53,7 @@
         </div>
 
     </div>
-    <div style="margin-top: 175px; margin-left: 45px; margin-right: 45px;">
+    <div style="margin-top: 175px; margin-left: 15%; margin-right: 15%;">
         <h2 style="text-align: center;"><u>Executives</u></h2>
         
 <table style="margin-left: auto; margin-right: auto;">
