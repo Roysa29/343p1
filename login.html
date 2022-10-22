@@ -7,16 +7,15 @@
     <link rel="stylesheet" href="loginlayout.css">
 </head>
 <style>
-	.content_square {
-        background-color: rgb(177, 177, 177);
-        background-repeat: repeat/no-repeat;
-        background-size: 1750px 1120px;
-        margin-left: 475px;
-        margin-right: 475px;
-        margin-top: 50px;
+	.content_box {
+        background-image: url(https://raw.githubusercontent.com/Roysa29/343p1/main/images/whiteboard.jpg);
+        background-repeat: no-repeat;
+        background-size: 1050px 1100px;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 0px;
         margin-bottom: 50px;
         padding-top: 0px;
-		border-style: solid;
     }
 </style>
 <body style = "background-color: rgba(69, 0, 132, .25);">
@@ -28,30 +27,31 @@
         <a href="login.html"><u>Login</u></a>
     </div>
 
-	<div class ="content_square">
-    <div class="title">
-    	<h1 style="padding-top: 20px; padding-bottom: 25px;">ACCOUNT</h1>
-    </div>
-	<div class="signup">
-		<form action="/action_page.php">
-		  <label for="signup">Sign Up:</label><br><br>
-		  <input type="text" id="name" name="name" value="Name"><br><br>
-		  <input type="text" id="email" name="email" value="Email"><br><br>
-		  <input type="text" id="uname" name="uname" value="Username"><br><br>
-		  <input type="text" id="pword" name="pword" value="Password"><br><br>
-		  <input type="text" id="rpword" name="rpword" value="Re-enter Password"><br><br>
-		  <input type="submit" value="Sign Up">
-		</form>
-	</div>
+	<div class="content_box">
 
-	<div class="login">
-		<form action="/action_page.php">
-		  <label for="login">Login:</label><br><br>
-		  <input type="text" id="uname" name="uname" value="Username"><br><br>
-		  <input type="text" id="pword" name="pword" value="Password"><br><br>
-		  <input type="submit" value="Login">
-		</form>
-	</div>
-</div>
+	    <div class="title">
+	    	<h1>ACCOUNT</h1>
+	    </div>
+		<div class="signup">
+			<form action="/action_page.php">
+			  <label for="signup">Sign Up:</label><br><br>
+			  <input type="text" id="name" name="name" value="Name"><br><br>
+			  <input type="text" id="email" name="email" value="Email"><br><br>
+			  <input type="text" id="uname" name="uname" value="Username"><br><br>
+			  <input type="text" id="pword" name="pword" value="Password"><br><br>
+			  <input type="text" id="rpword" name="rpword" value="Re-enter Password"><br><br>
+			  <input type="submit" value="Sign Up">
+			</form>
+		</div>
+
+		<div class="login">
+			<form action="/action_page.php">
+			  <label for="login">Login:</label><br><br>
+			  <input type="text" id="uname" name="uname" value="Username"><br><br>
+			  <input type="text" id="pword" name="pword" value="Password"><br><br>
+			  <input type="submit" value="Login">
+			</form>
+		</div>
+	</div>	
 </body>
 </html>
