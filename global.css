@@ -34,7 +34,7 @@ body {
 
 .content_box {
     background-image: url(images/background.jpg);
-    background-repeat: repeat/no-repeat;
+    background-repeat: repeat;
     background-size: 100% 100%;
     margin-left: 75px;
     margin-right: 75px;
@@ -50,7 +50,6 @@ body {
 }
 
 .titles td {
-    font-weight: ital;
     font-style: italic;
     padding-top: 0px;
     padding-bottom: 15px;

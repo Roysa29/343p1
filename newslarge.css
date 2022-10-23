@@ -5,11 +5,17 @@
 }
 
 .header {
-    text-align: center; padding-top: 45px; margin-top: 50px; font-size: 50px;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: 50px;
+    font-size: 50px;
 }
 
 .recentNews {
-    margin-left: 10%; padding-right: 20%; margin-top: 0px; padding-top: 45px; 
+    margin-left: 10%;
+    padding-right: 20%;
+    margin-top: 0px;
+    padding-top: 45px;
 }
 
 .paddingRight {
@@ -17,21 +23,29 @@
 }
 
 .imagePadding {
-    flex-basis: 40%; margin-left: 350px;
+    flex-basis: 40%;
+    margin-left: 350px;
 }
 
 .imageSize {
-    height: 300; width: 300px;
+    height: 300px;
+    width: 300px;
 }
 
 .linkPadding {
-    margin-right: 10%; margin-top: 200px;
+    margin-right: 10%;
+    margin-top: 200px;
 }
 
 .imageFormat {
-    margin-left: 12%; padding-right: 250px
+    margin-left: 12%;
+    padding-right: 250px
 }
 
 .imagePaddingLeft {
-    flex-basis: 40%; margin-right: 250px; height: 250; width: 250px; margin-bottom: 75px;
+    flex-basis: 40%;
+    margin-right: 250px;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 75px;
 }
