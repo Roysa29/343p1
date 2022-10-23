@@ -10,11 +10,15 @@
 }
 
 .header {
-    text-align: center; padding-top: 45px; margin-top: 500px; font-size: 50px;
+    text-align: center;
+    padding-top: 45px;
+    margin-top: 500px;
+    font-size: 50px;
 }
 
 .imageDiv {
-    flex-basis: 40%; margin-left: 350px;
+    flex-basis: 40%;
+    margin-left: 350px;
 }
 
 .container {
