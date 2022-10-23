@@ -1,0 +1,31 @@
+.signup {
+    width: 20em;
+    height: 10em;
+    margin-left: 15%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+
+.login {
+    margin-left: 15%;
+    margin-bottom: 15%;
+    margin-top: 35%;
+}
+
+.content_square {
+    background-color: rgb(177, 177, 177);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+    border-style: solid;
+}
+
+.title {
+    position: relative;
+    left: 42.5%;
+    top: 2em;
+}
