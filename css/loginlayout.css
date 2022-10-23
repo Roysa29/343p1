@@ -1,12 +1,30 @@
 .title {
-	position: relative; left: 42.5%; top: 2em;
+	position: relative;
+	left: 42.5%;
+	top: 2em;
 }
 
-.signup{
-	position: relative; left: 23%;
+.signup {
+	position: relative;
+	left: 23%;
 	width: 20em;
 	height: 10em;
 }
-.login{
-	position: relative; left: 63%; bottom: 10em;
+
+.login {
+	position: relative;
+	left: 63%;
+	bottom: 10em;
+}
+
+.content_square {
+	background-color: rgb(177, 177, 177);
+	background-repeat: repeat;
+	background-size: 1750px 1120px;
+	margin-left: 475px;
+	margin-right: 475px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 0px;
+	border-style: solid;
 }
