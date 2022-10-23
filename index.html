@@ -1,23 +1,30 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <title>Home Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/global.css" media="screen" rel="stylesheet">
+
+    <!-- Media Querie -->
+    <link rel="stylesheet" media="screen and (max-width: 1500px)" href="css/indexsmall.css">
+
+    <style>
+        .content_square {
+            background-image: url(images/background.jpg);
+            /* background-repeat: repeat/no-repeat; */
+            background-size: 1850px 1320px;
+            margin-left: 75px;
+            margin-right: 75px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding-top: 0px;
+        }
+    </style>
 </head>
-<style>
-    .content_square {
-        background-image: url(images/background.jpg);
-        background-repeat: repeat/no-repeat;
-        background-size: 1850px 1320px;
-        margin-left: 75px;
-        margin-right: 75px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        padding-top: 0px;
-    }
-</style>
-<body style = "background-color: rgba(69, 0, 132, .25);">
+
+<body style="background-color: rgba(69, 0, 132, .25);">
     <div class="topnav">
         <a href="index.html"><u>Home</u></a>
         <a href="about.html">About</a>
@@ -26,37 +33,45 @@
         <a href="login.html">Login</a>
     </div>
     <div class="content_square" style="border-style: solid;">
-        <div class = "container" style= "margin-right: 10%;">
-            <div style="margin-left: 12%; padding-right: 250px" >
-        
-                    <img style="flex-basis: 40%; margin-right: 250px; width: 500px; height: 500px; margin-top: 90px;" src="images/logo.png" alt="placeholder">
-                </div>
-                <div>
-                <p class = "sub_title">Joining The Club</p>
-                <p style="margin-top: 0px; margin-right: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>  
-                </div>
-        
+        <div class="container" style="margin-right: 10%;">
+            <div style="margin-left: 12%; padding-right: 250px">
+
+                <img style="flex-basis: 40%; margin-right: 250px; width: 500px; height: 500px; margin-top: 90px;"
+                    src="images/logo.png" alt="placeholder">
             </div>
-            <div class = "container" style="margin-top: 150px;">
-                <div>
-                    <h1 style="margin-top: 190; text-align: left;">The Club Be Involved Page</h1>
-                    <a href = "https://beinvolved.jmu.edu/feeds?type=club&type_id=65854&tab=home" target="_blank">
-                        <img style="align-items: left; width: 350px; height: 350px; margin-right: 350px;  margin-bottom: 75px;" src="images/beInvolved.jpg" alt="placeholder">
-                    </a>
-                    </div>
-                    <div>
-                        <h1 style="margin-top: 190; text-align: center;">The Club Discord</h1>
-                        <a href = "https://discord.gg/AhpTDKRf3X" target="_blank">
-                        <img style="align-items: right; width: 350px; height: 350px; margin-bottom: 75px;" src="images/discord.png" alt="placeholder">
-                        </a>
-                    </div>
-            
-                </div>
+            <div>
+                <p class="sub_title">Joining The Club</p>
+                <p style="margin-top: 0px; margin-right: 0px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum.
+                </p>
+            </div>
+
+        </div>
+        <div class="container" style="margin-top: 150px;">
+            <div>
+                <h1 style="margin-top: 100px; text-align: left;">The Club Be Involved Page</h1>
+                <a href="https://beinvolved.jmu.edu/feeds?type=club&type_id=65854&tab=home" target="_blank">
+                    <img style="width: 350px; height: 350px; margin-right: 350px;  margin-bottom: 75px;"
+                        src="images/beInvolved.jpg" alt="placeholder">
+                </a>
+            </div>
+            <div>
+                <h1 style="margin-top: 190px; text-align: center;">The Club Discord</h1>
+                <a href="https://discord.gg/AhpTDKRf3X" target="_blank">
+                    <img style="width: 350px; height: 350px; margin-bottom: 75px;" src="images/discord.png"
+                        alt="placeholder">
+                </a>
+            </div>
+
+        </div>
 
     </div>
 </body>
+
 </html>
